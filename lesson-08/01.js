@@ -10,7 +10,7 @@ function capitalizeWords(str) {
     const words = str.split(' ');
     for (let i = 0; i < words.length; i++) {
         const word = words[i];
-        if (word.lenght > 0) {
+        if (word.length > 0) {
             words[i] = word[0].toUpperCase() + word.slice(1);
         }
     }
